@@ -2,4 +2,4 @@
 Repositorio criado para Desafio de Projeto.
 
 ## Links Uteis
-[sintase Basica Markdown](https://www.markdownguide.org/basic-syntax/)
+[Sintaxe Basica Markdown](https://www.markdownguide.org/basic-syntax/)
