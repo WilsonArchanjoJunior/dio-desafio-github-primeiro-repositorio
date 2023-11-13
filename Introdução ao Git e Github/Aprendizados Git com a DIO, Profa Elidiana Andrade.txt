@@ -1,0 +1,77 @@
+Git
+
+Comandos anotados.
+
+⚫ git init: Iniciar um novo repositório.
+
+⚫ mkdir Criar uma pasta.
+
+⚫ cd Entra em uma pasta.
+
+⚫ cd... Volta uma pasta.
+
+⚫ cd .git Entra no GIT_DIR
+
+⚫ git clone "url" --branch "name" --single-branch: Clona apenas uma branch, caso não seja especificado, clona a principal.
+
+⚫ git clone "url+name": Clonar repositório remoto.
+
+⚫ git remote add "name+url" (nome normalmente é "origin"): Conectar a pasta local com o remoto.
+
+⚫git add "nome" ou ". ". Para adicionar um arquivo ou todos.
+
+⚫ git commit -m"message" Adicionar ao commit ("message" é um resumo dos arquivos).
+
+⚫ git commit --amend -m"message": Corrigir ou modificar o último commit.
+
+⚫git status/log: Verificar.
+
+⚫ git pull: Puxar os arquivos do remoto.
+
+⚫ git push -u origin main: Puxar do local para o remoto.
+
+⚫ git branch main -M: Muda o nome da branch.
+
+⚫ git checkout -b "name": Cria e muda para uma nova branch.
+
+⚫git merge "name": Mescla a branch com a principal.
+
+⚫ git stash Armazenar temporariamente alterações não confirmadas para trabalhar em outra coisa sem ter que fazer commit.
+
+⚫git stash apply Aplica e mantém no stash.
+
+⚫git stash pop: Aplica e remove do stash.
+
+⚫git reset --soft "commit": Reescrever o histórico de commits e manter as alterações prontas para um novo.
+
+⚫ git reset --mixed: Desfazer alterações preparadas e mantê-las no diretório de trabalho como não prontas.
+
+⚫ git reset --hard: Descarta todas as alterações não confirmadas e todos os commits subsequentes.
+
+⚫git fetch origin main: Puxar os arquivos remotos sem mesclar com o local.
+
+⚫ git diff main origin/main: Compara os arquivos remotos e locais que foram puxados.
+
+⚫ git merge origin/main: Traz os arquivos do remoto mesclando-os.
+
+⚫ git config --global user.name: Verificar o nome, ou adicionar colocando "name" (o email é apenas trocar o "name").
+
+⚫rm -rf .git: Excluir o ".git".
+
+⚫ touch: Criar novos arquivos vazios (caso existam, atualiza o carimbo de data e hora).
+
+⚫echo "texto"+"arquivo": Adicionar/remover texto de um arquivo.
+
+⚫ .gitignore Ignorar arquivos/pastas.
+
+⚫gitkeep: Adicionado a diretórios vazios para inclusão no controle de versão (pode ser outros nomes também).
+
+⚫ git restore "arquivo": Restaurar as alterações feitas.
+
+⚫ git reflog: Rastrear mudanças no histórico e recuperar commits ou branches perdidos.
+
+⚫ git branch -v: Últimos commit de cada branch.
+
+⚫ git branch -d "name": Excluir uma branch.
+
+
