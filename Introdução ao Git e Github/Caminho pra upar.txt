@@ -1,0 +1,4 @@
+git status = verificar o estado.
+git add . = adicionar a modificação
+git commit -m = atualização da modificação
+git push origin main = upar na nuvem
